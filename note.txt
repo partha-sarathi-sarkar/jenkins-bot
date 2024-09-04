@@ -1,0 +1,4 @@
+## get the Password for Jenkikins master 
+kubectl exec --namespace jenkins -it svc/jenkins -- /bin/cat /var/jenkins_home/secrets/initialAdminPassword
+
+P1 : cff90fb203c149adb03b8e94e67160b9
